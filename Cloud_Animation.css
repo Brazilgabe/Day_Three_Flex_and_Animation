@@ -1,0 +1,81 @@
+body {
+  background-color: #70d1ff;
+}
+@keyframes logo {
+  from {
+    transform: translateX(0px);
+    height: 0px;
+    width: auto;
+  }
+  to { transform: translateX(0%);
+    height: 310px;
+    width: auto;
+  }
+}
+.dope {
+  z-index: 6;
+  position: fixed;
+  margin-left: 79%;
+  margin-top: 28.5%;
+}
+.simpsons {
+  z-index: 5;
+  margin-top: 13.5%;
+  margin-left: 15%;
+  position: fixed;
+  animation-name: logo;
+  animation-duration: 10s;
+}
+@keyframes cloud1 {
+  from {
+    transform: translateX(20%);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
+.cloud_1 {
+  z-index: 4;
+  margin-left: 20%;
+  margin-top: 0%;
+  position: fixed;
+}
+.cloud_2 {
+  z-index: 3;
+  margin-left:25%;
+  margin-top: 2%;
+  position: fixed;
+}
+@keyframes cloud3 {
+  from {
+    transform: translateX(-10%);
+  }
+  to {
+    transform: translateX(-30%);
+  }
+}
+.cloud_3 {
+  z-index: 2;
+  margin-top: 13.5%;
+  margin-left: 10%;
+  position: fixed;
+  animation-name: cloud3;
+  animation-duration: 10s;
+  animation-fill-mode: backwards;
+}
+.cloud_4 {
+  z-index: 1;
+  margin-top: 16%;
+  margin-left: 20%;
+  position: fixed;
+  animation-name: cloud4;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes cloud4 {
+  from {
+    transform: translateX(30%);
+  }
+  to {
+    transform: translateX(80%);
+  }
